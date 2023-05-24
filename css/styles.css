@@ -1,0 +1,105 @@
+li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #navbar-pinterest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  
+  #navbar-pinterest > * {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  #navbar-pinterest ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  #navbar-pinterest ul li {
+    margin-right: 15%;
+  }
+/**/
+
+.search-container {
+    position: absolute;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    width: 66%; /* Ajusta el ancho según tus necesidades */
+    max-width: 100%; /* Asegura que no exceda el ancho máximo del contenedor padre */
+  }
+  
+  .finder {
+    border: none;
+    background: none;
+    flex: 1;
+    padding: 2px;
+    font-size: 28px; /* Ajusta el tamaño de fuente según tus necesidades */
+    outline: none;
+  }
+  
+  .search-icon {
+    width: 20px; /* Ajusta el tamaño de la imagen de la lupa según tus necesidades */
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+.icono-nav-1{
+    position: absolute;
+    right: 6%;
+}
+.icono-nav-2{
+    position: absolute;
+    right: 3%;
+}
+
+.img-foto{
+    border-radius: 100%;
+    width: 4%;
+    height: 4%;
+}
+.seccion-uno{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    width: 100%;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define 3 columnas de igual ancho */
+    gap: 10px; /* Espacio entre las imágenes, ajusta según tus necesidades */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
